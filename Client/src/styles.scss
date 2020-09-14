@@ -1,16 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
+// Import Fuse core library
+@import "@fuse/scss/core";
 
-@import "./assets/css/app-creative.scss";
-
-.topnav-logo {
-    .logo-matusek {
-        font-size: 1.7em;
-        color: white;
-    }
-    .logo-solutions,
-    .logo-dot {
-        font-size: 1.1em;
-        color: orange;
-        text-transform: lowercase;
-    }
-}
+// Import app.theme.scss
+@import "app/app.theme";
