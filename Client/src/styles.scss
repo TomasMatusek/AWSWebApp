@@ -1,5 +1,10 @@
-// Import Fuse core library
-@import "@fuse/scss/core";
+/* You can add global styles to this file, and also import other style files */
 
-// Import app.theme.scss
-@import "app/app.theme";
+// Icons
+@import "/src/assets/scss/custom/plugins/icons/unicons";
+@import "/src/assets/scss/custom/plugins/icons/materialdesignicons";
+@import "/src/assets/scss/custom/plugins/icons/dripicons";
+
+@import "/src/assets/scss/app.scss";
+@import "/src/assets/scss/app-modern.scss";
+@import "/src/assets/scss/app-creative.scss";
