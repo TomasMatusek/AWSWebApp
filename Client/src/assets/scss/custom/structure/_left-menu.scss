@@ -462,6 +462,28 @@ body[data-layout="detached"] {
         }
     }
     
+    .leftbar-logo {
+        background: url("/assets/images/waves.png") no-repeat;
+        padding: 30px 20px;
+        text-align: center;
+    
+        .leftbar-logo-matusek {
+            font-weight: 700;
+            color: $dark;
+            margin-top: 8px;
+            font-size: 1.0rem;
+            text-transform: uppercase;
+            display: block;
+        }
+
+        .leftbar-logo-solutions {
+            font-weight: 700;
+            color: $dark;
+            margin-top: 8px;
+            display: block;
+        }
+    }
+
     .leftbar-user {
         background: url("/assets/images/waves.png") no-repeat;
         padding: 30px 20px;

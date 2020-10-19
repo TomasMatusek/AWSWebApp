@@ -3,16 +3,38 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { RouterModule, Routes } from '@angular/router';
+import { AboutComponent } from './about/about.component';
+import { SidemenuComponent } from './sidemenu/sidemenu.component';
+import { FooterComponent } from './footer/footer.component';
+
+const routes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'about', component: AboutComponent },
+];
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    AboutComponent,
+    SidemenuComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  exports: [
+    FooterComponent,
+    AboutComponent,
+    HomeComponent,
+    SidemenuComponent,
+    SidemenuComponent
+  ],
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
