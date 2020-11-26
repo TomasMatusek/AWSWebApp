@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="03943028-0130-4164-b7ea-6cf6605b344d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Client/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/app/top-navigation/top-navigation.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/app/top-navigation/top-navigation.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AWSWebApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AWSWebApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/Server/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/solutions/matusek/website/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/solutions/matusek/website/Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/solutions/matusek/website/WebsiteApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/test/java/solutions/matusek/website/WebsiteApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +55,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -36,7 +65,24 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.28411216" />
+    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Server" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="personalpage" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="solutions.matusek.personalpage.PersonalpageApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -47,10 +93,89 @@
       <option name="presentableId" value="Default" />
       <updated>1599829348948</updated>
       <workItem from="1599829349977" duration="283000" />
+      <workItem from="1606371005923" duration="1972000" />
+      <workItem from="1606375887179" duration="625000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1377" y="613" key="#Project_Structure" timestamp="1606376436668">
+      <screen x="0" y="25" width="3840" height="2080" />
+    </state>
+    <state x="1377" y="613" key="#Project_Structure/0.25.3840.2080@0.25.3840.2080" timestamp="1606376436668" />
+    <state x="1354" y="694" width="1222" height="885" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606376347106">
+      <screen x="0" y="25" width="3840" height="2080" />
+    </state>
+    <state x="1354" y="694" width="1222" height="885" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.3840.2080@0.25.3840.2080" timestamp="1606376347106" />
+    <state x="1627" y="841" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1606376344265">
+      <screen x="0" y="25" width="3840" height="2080" />
+    </state>
+    <state x="1627" y="841" key="#com.intellij.ide.util.TreeClassChooserDialog/0.25.3840.2080@0.25.3840.2080" timestamp="1606376344265" />
+    <state width="2613" height="548" key="GridCell.Tab.0.bottom" timestamp="1606376357896">
+      <screen x="0" y="25" width="3840" height="2080" />
+    </state>
+    <state width="2613" height="548" key="GridCell.Tab.0.bottom/0.25.3840.2080@0.25.3840.2080" timestamp="1606376357896" />
+    <state width="2613" height="548" key="GridCell.Tab.0.center" timestamp="1606376357895">
+      <screen x="0" y="25" width="3840" height="2080" />
+    </state>
+    <state width="2613" height="548" key="GridCell.Tab.0.center/0.25.3840.2080@0.25.3840.2080" timestamp="1606376357895" />
+    <state width="2613" height="548" key="GridCell.Tab.0.left" timestamp="1606376357894">
+      <screen x="0" y="25" width="3840" height="2080" />
+    </state>
+    <state width="2613" height="548" key="GridCell.Tab.0.left/0.25.3840.2080@0.25.3840.2080" timestamp="1606376357894" />
+    <state width="2613" height="548" key="GridCell.Tab.0.right" timestamp="1606376357895">
+      <screen x="0" y="25" width="3840" height="2080" />
+    </state>
+    <state width="2613" height="548" key="GridCell.Tab.0.right/0.25.3840.2080@0.25.3840.2080" timestamp="1606376357895" />
+    <state width="2613" height="670" key="GridCell.Tab.1.bottom" timestamp="1606376355354">
+      <screen x="0" y="25" width="3840" height="2080" />
+    </state>
+    <state width="2613" height="670" key="GridCell.Tab.1.bottom/0.25.3840.2080@0.25.3840.2080" timestamp="1606376355354" />
+    <state width="2613" height="670" key="GridCell.Tab.1.center" timestamp="1606376355354">
+      <screen x="0" y="25" width="3840" height="2080" />
+    </state>
+    <state width="2613" height="670" key="GridCell.Tab.1.center/0.25.3840.2080@0.25.3840.2080" timestamp="1606376355354" />
+    <state width="2613" height="670" key="GridCell.Tab.1.left" timestamp="1606376355354">
+      <screen x="0" y="25" width="3840" height="2080" />
+    </state>
+    <state width="2613" height="670" key="GridCell.Tab.1.left/0.25.3840.2080@0.25.3840.2080" timestamp="1606376355354" />
+    <state width="2613" height="670" key="GridCell.Tab.1.right" timestamp="1606376355354">
+      <screen x="0" y="25" width="3840" height="2080" />
+    </state>
+    <state width="2613" height="670" key="GridCell.Tab.1.right/0.25.3840.2080@0.25.3840.2080" timestamp="1606376355354" />
+    <state width="2613" height="670" key="GridCell.Tab.2.bottom" timestamp="1606376355355">
+      <screen x="0" y="25" width="3840" height="2080" />
+    </state>
+    <state width="2613" height="670" key="GridCell.Tab.2.bottom/0.25.3840.2080@0.25.3840.2080" timestamp="1606376355355" />
+    <state width="2613" height="670" key="GridCell.Tab.2.center" timestamp="1606376355355">
+      <screen x="0" y="25" width="3840" height="2080" />
+    </state>
+    <state width="2613" height="670" key="GridCell.Tab.2.center/0.25.3840.2080@0.25.3840.2080" timestamp="1606376355355" />
+    <state width="2613" height="670" key="GridCell.Tab.2.left" timestamp="1606376355354">
+      <screen x="0" y="25" width="3840" height="2080" />
+    </state>
+    <state width="2613" height="670" key="GridCell.Tab.2.left/0.25.3840.2080@0.25.3840.2080" timestamp="1606376355354" />
+    <state width="2613" height="670" key="GridCell.Tab.2.right" timestamp="1606376355355">
+      <screen x="0" y="25" width="3840" height="2080" />
+    </state>
+    <state width="2613" height="670" key="GridCell.Tab.2.right/0.25.3840.2080@0.25.3840.2080" timestamp="1606376355355" />
+    <state x="1104" y="606" width="1410" height="840" key="SettingsEditor" timestamp="1606376526682">
+      <screen x="0" y="25" width="3840" height="2080" />
+    </state>
+    <state x="1104" y="606" width="1410" height="840" key="SettingsEditor/0.25.3840.2080@0.25.3840.2080" timestamp="1606376526682" />
   </component>
 </project>
