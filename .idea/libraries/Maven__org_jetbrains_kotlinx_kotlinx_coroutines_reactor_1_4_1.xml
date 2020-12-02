@@ -1,8 +1,6 @@
 <component name="libraryTable">
   <library name="Maven: org.jetbrains.kotlinx:kotlinx-coroutines-reactor:1.4.1">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlinx/kotlinx-coroutines-reactor/1.4.1/kotlinx-coroutines-reactor-1.4.1.jar!/" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC>
       <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlinx/kotlinx-coroutines-reactor/1.4.1/kotlinx-coroutines-reactor-1.4.1-javadoc.jar!/" />
     </JAVADOC>
