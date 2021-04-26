@@ -8,7 +8,6 @@ phases:
     commands:
       - echo Build started on `date`
       - java -version
-      - mvn surefire-report:report
       - mvn -f Server/pom.xml package
 
 reports:
