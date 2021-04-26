@@ -12,5 +12,6 @@ phases:
 
 artifacts:
   files:
-    - '**/*'
+    - buildspec.yml
+    - target/*
   base-directory: 'target/matusek-solutions-website'
