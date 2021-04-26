@@ -22,16 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03943028-0130-4164-b7ea-6cf6605b344d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Client/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/run-jenkins.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/run-jenkins.sh" afterDir="false" />
-    </list>
+    <list default="true" id="03943028-0130-4164-b7ea-6cf6605b344d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,7 +148,7 @@
       <workItem from="1619100989137" duration="1449000" />
       <workItem from="1619102694560" duration="930000" />
       <workItem from="1619107058806" duration="12122000" />
-      <workItem from="1619467861624" duration="1914000" />
+      <workItem from="1619467861624" duration="2563000" />
     </task>
     <servers />
   </component>
