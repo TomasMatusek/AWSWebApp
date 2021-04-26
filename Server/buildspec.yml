@@ -1,11 +1,15 @@
 version: 0.2
 
 phases:
+  install:
+    runtime-versions:
+      java: corretto11
   build:
     commands:
       - echo Build started on `date`
+      - jave -version
       - mvn package
-
 artifacts:
   files:
-    - target/matusek-solutions-website-1.0.jar
+    - '**/*'
+    base-directory: 'target/matusek-solutions-website'
