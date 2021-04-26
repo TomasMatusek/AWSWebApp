@@ -9,7 +9,8 @@ phases:
       - echo Build started on `date`
       - java -version
       - mvn package
+
 artifacts:
   files:
     - '**/*'
-    base-directory: 'target/matusek-solutions-website'
+  base-directory: 'target/matusek-solutions-website'
