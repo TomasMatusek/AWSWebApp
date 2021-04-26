@@ -8,7 +8,14 @@ phases:
     commands:
       - echo Build started on `date`
       - java -version
+      - mvn surefire-report:report
       - mvn -f Server/pom.xml package
+
+reports:
+  SurefireReports:
+    files:
+      - '**/*'
+    base-directory: 'Server/target/surefire-reports'
 
 artifacts:
   files:
