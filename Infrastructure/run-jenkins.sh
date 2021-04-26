@@ -12,4 +12,4 @@ docker run \
 --publish 50000:50000 \
 --volume jenkins-data:/var/jenkins_home \
 --volume jenkins-docker-certs:/certs/client:ro \
-jenkins/jenkins
+jenkins/jenkins:lts

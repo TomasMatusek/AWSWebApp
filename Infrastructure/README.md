@@ -1,10 +1,32 @@
 # Jenkins build:
-1. Phase: 
-- Build FE using docker
-- Builded FE is place into folder in filesystem
-2. Phase:
-- Run FE using generate files by copying them into container
-  
+1. Phase
+   - GIT checkout project to folder
+2. Phase: 
+   - Build FE using docker build
+3. Phase:
+   - Run FE using generate files by copying them into container
+
+# Running Jenkins:
+
+pipeline {
+    agent any
+    stages {
+        stage('GIT clone') {
+            steps {
+                sh 'rm -Rf AWSWebApp/'
+                sh 'git clone https://github.com/TomasMatusek/AWSWebApp.git'
+            }
+        }
+        stage('Docker build image') {
+            steps {
+                dir('/AWSWebApp/Client/') {
+                    sh 'ls -al'
+                    def customImage = docker.build("web-client:${env.BUILD_ID}")
+                }
+            }
+        }
+    }
+}
 
 # Running Jenkins:
   pipeline {
