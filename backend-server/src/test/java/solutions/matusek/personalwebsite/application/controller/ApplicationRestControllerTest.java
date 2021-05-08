@@ -30,7 +30,7 @@ class ApplicationRestControllerTest {
     void When_RootHit_Then_EmptyJsonReturned() {
         ResponseEntity<String> response = restTemplate.getForEntity(getUrl("/"), String.class);
         Assertions.assertNotNull(response);
-        Assertions.assertEquals("{}", response.getBody());
+        Assertions.assertEquals("{\"message\":\"Hello, World!\"}", response.getBody());
         Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
     }
 

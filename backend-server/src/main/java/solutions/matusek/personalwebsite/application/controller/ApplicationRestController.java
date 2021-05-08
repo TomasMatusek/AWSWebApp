@@ -8,6 +8,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import solutions.matusek.personalwebsite.application.service.IApplicationService;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
+
 @RestController
 public class ApplicationRestController implements IApplicationRestController {
 
@@ -20,10 +24,12 @@ public class ApplicationRestController implements IApplicationRestController {
 
     @Override
     @GetMapping(value = "/", produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<String> getRoot() {
+    public ResponseEntity<Map<String,String>> getRoot() {
+        Map<String,String> response = new HashMap<>();
+        response.put("message", "Hello, World!");
         return ResponseEntity
                 .status(HttpStatus.OK)
-                .body("{}");
+                .body(response);
     }
 
     @Override
