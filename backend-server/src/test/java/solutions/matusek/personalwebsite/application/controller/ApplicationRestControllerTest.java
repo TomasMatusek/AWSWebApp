@@ -40,7 +40,7 @@ class ApplicationRestControllerTest {
         Assertions.assertNotNull(response);
         Assertions.assertNotNull(response.getBody());
         Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
-        Assertions.assertEquals("personal-website", response.getBody().getArtifactId());
+        Assertions.assertEquals("matusek-solutions-backend-server", response.getBody().getArtifactId());
         Assertions.assertEquals("solutions.matusek", response.getBody().getGroupId());
     }
 

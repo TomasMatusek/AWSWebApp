@@ -10,9 +10,9 @@
 	</parent>
 
 	<groupId>solutions.matusek</groupId>
-	<artifactId>personal-website</artifactId>
+	<artifactId>matusek-solutions-backend-server</artifactId>
 	<version>0.0.2-SNAPSHOT</version>
-	<name>personal-website</name>
+	<name>matusek-solutions-backend-server</name>
 	<description>Personal web site</description>
 
 	<properties>
