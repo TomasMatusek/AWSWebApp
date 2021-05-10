@@ -26,7 +26,7 @@ public class ApplicationRestController implements IApplicationRestController {
     @GetMapping(value = "/", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Map<String,String>> getRoot() {
         Map<String,String> response = new HashMap<>();
-        response.put("message", "Hello, World!");
+        response.put("message", "Hello, World 123!");
         return ResponseEntity
                 .status(HttpStatus.OK)
                 .body(response);
