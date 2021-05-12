@@ -2,19 +2,18 @@
 
 Backend server for personal website.
 
-### Tests
-```sh
-mvn test
-```
-
 ### Build
 
+Compile, test and package
+
 ```shell
-mvn build
+mvn package
 ```
 
-### Deployment
+Then run build to build image and push to AWS
 
-Tag:
-
-`matusek-solutions-backend-server`
+```shell
+docker build -t matusek-solutions-backend-server .
+docker matuseksolutions tag matusek-solutions-backend-server:latest 555037798326.dkr.ecr.eu-central-1.amazonaws.com/matusek-solutions-backend-server:latest
+docker push 555037798326.dkr.ecr.eu-central-1.amazonaws.com/matusek-solutions-backend-server:latest
+```

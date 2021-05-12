@@ -25,9 +25,10 @@
     <list default="true" id="03943028-0130-4164-b7ea-6cf6605b344d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend-server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/backend-server/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-server/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/backend-server/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend-server/aws_build_and_push_image.sh" beforeDir="false" afterPath="$PROJECT_DIR$/backend-server/aws_build_and_push_image.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-server/src/main/java/solutions/matusek/personalwebsite/application/controller/ApplicationRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend-server/src/main/java/solutions/matusek/personalwebsite/application/controller/ApplicationRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-server/src/test/java/solutions/matusek/personalwebsite/application/controller/ApplicationRestControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend-server/src/test/java/solutions/matusek/personalwebsite/application/controller/ApplicationRestControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-server/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend-server/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-client/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +171,9 @@
       <workItem from="1619467861624" duration="6026000" />
       <workItem from="1619898174026" duration="2733000" />
       <workItem from="1620470802997" duration="8532000" />
-      <workItem from="1620672795307" duration="617000" />
+      <workItem from="1620672795307" duration="1113000" />
+      <workItem from="1620759986844" duration="892000" />
+      <workItem from="1620823825199" duration="3830000" />
     </task>
     <servers />
   </component>

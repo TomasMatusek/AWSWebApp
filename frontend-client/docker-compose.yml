@@ -1,12 +1,12 @@
 version: '2'
 
 services:
-  backend-server:
-    container_name: matusek-solutions-backend-server
+  frontend-client:
+    container_name: matusek-solutions-frontend-client
     build:
       context: .
       dockerfile: Dockerfile
     ports:
-      - 5000:5000
+      - 80:80
     environment:
       - JWT_SECRET=secret321
